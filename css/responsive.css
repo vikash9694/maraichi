@@ -1,0 +1,393 @@
+
+
+@media screen and (max-width:1080px){
+
+}
+
+
+
+@media screen and (max-width:992px){
+    .navbar-brand {
+        width: 70px;
+    }
+    .hero {
+        padding: 50px 0px 50px;
+    }
+    .hero .text-box {
+        width: 70%;
+
+    }
+    .hero .text-box h1 {
+        font-size: 80px;
+    }
+    .our-menu .menu-box {
+        width: 100%;
+    }
+    h2 {
+        font-size: 45px;
+    }
+    .about .img-box img {
+        width: 350px;
+        height: 350px;
+    }
+    section.our-menu {
+        padding: 60px 0;
+    }
+    section.about {
+        padding: 60px 0;
+    }
+    .discount .text-box h1 {
+        font-size: 100px;
+        margin: 25px 0 -25px;
+    }
+    .discount .text-box h3 {
+        font-size: 40px;
+    }
+    .discount .img-box img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+    }
+    .discount .text-box h2 {
+        font-size: 70px;
+        margin-top: -25px;
+        margin-right: -200px;
+        position: absolute;
+       
+    }
+    .marichi .marichi-box .text-box h3 {
+        font-size: 30px;
+        width: 100%;
+    }
+    .marichi .marichi-box .text-box h4{
+        font-size: 35px;
+    }
+    .our-menu.form .menu-box {
+        width: 100%;
+    }
+    .our-menu.form .menu-box form input {
+        width: 65%;
+    }
+    .our-menu.form .menu-box .btn {
+        padding: 0px 50px;
+    }
+    footer .text-box {
+        margin-bottom: 50px;
+    }
+}
+
+
+
+@media screen and (max-width:768px){
+    header .nav-item .nav-link {
+        font-size: 17px;
+        margin: 0 0px;
+    }
+    .hero {
+        padding: 40px 0px 40px;
+    }
+    .hero .text-box {
+        width: 100%;
+    }
+    .hero .text-box h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    .hero .text-box p {
+        margin-bottom: 20px;
+        line-height: 21px;
+        font-size: 16px;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 10px 45px;
+    }
+    .navbar-brand {
+        width: 50px;
+    }
+    section.our-menu {
+        padding: 40px 0;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    .our-menu .menu-box p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .our-menu .menu-box h2 {
+        margin-bottom: 15px;
+    }
+    section.about {
+        padding: 40px 0;
+    }
+    .about .img-box{
+        text-align: center;
+    }
+    .about .img-box img {
+        width: 260px;
+        height: 260px;
+        margin-bottom: 30px;
+    }
+    .about .text-box h2 {
+        margin-bottom: 20px;
+    }
+    .about .text-box p {
+        margin-bottom: 20px;
+    }
+    .discount .text-box {
+        position: relative;
+        left: 0;
+    }
+    .discount .text-box h1 {
+        font-size: 90px;
+        margin: 25px 0 -25px;
+    }
+    .discount .text-box h2 {
+        font-size: 55px;
+        margin-top: -25px;
+    }
+    section.discount {
+        padding: 0px 0 0 0;
+    }
+    .marichi .marichi-box .img-box img {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    .marichi{
+        padding: 40px 0;
+    }
+    .marichi .marichi-box .text-box h3 {
+        font-size: 19px;
+    }
+    .marichi .marichi-box .text-box h4 {
+        font-size: 25px;
+    }
+    .our-menu.form .menu-box p {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+    .our-menu.form .menu-box .btn {
+        padding: 0px 30px;
+    }
+    .our-menu.form .menu-box form input {
+        width: 63%;
+    }
+    footer {
+        padding: 50px 0;
+    }
+    footer .text-box {
+        width: 100%;
+    }
+    footer .text-box p{
+        font-size: 18px;
+    }
+    footer ul li {
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+    footer ul{
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width:360px){
+    .navbar-brand {
+        width: 50px;
+    }
+    .hero .text-box {
+        width: 100%;
+    }
+    .hero .text-box h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    .hero .text-box p {
+        margin-bottom: 20px;
+        line-height: 20px;
+        font-size: 16px;
+    }
+    .hero .text-box .btn {
+        background: #ffd7ad;
+        color: #4a1831;
+        font-size: 16px;
+        padding: 10px 45px;
+    }
+    section.our-menu {
+        padding: 40px 0;
+    }
+    .our-menu .menu-box {
+        width: 100%;
+    }
+    .our-menu .menu-box h2 {
+        margin-bottom: 15px;
+        font-size: 35px;
+        color: #4a1831;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    .our-menu .menu-box p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        color: #4a1831;
+        line-height: 25px;
+
+    }
+    .our-menu .menu-box .btn {
+        background-color: #4a1831;
+        color: #ffd7ad;
+        font-size: 16px;
+        padding: 10px 45px;
+        font-weight: 500;
+    border-radius: 50px;
+    text-transform: uppercase;
+    }
+    section.about {
+        padding: 40px 0;
+    }
+    .about .img-box img {
+        width: 260px;
+        height: 260px;
+        margin-bottom: 30px;
+    }
+    .about .text-box h2 {
+        margin-bottom: 20px;
+        color: #4a1831;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    .about .text-box p {
+        margin-bottom: 20px;
+        color: #4a1831;
+        line-height: 25px;
+    }
+    .about .text-box .btn {
+        font-size: 16px;
+        padding: 10px 45px;
+        font-weight: 500;
+        border-radius: 50px;
+        text-transform: uppercase;
+    }
+    .position-relative {
+        position: relative!important;
+    }
+    .discount .text-box {
+        position: relative;
+        left: 0;
+    }
+    .discount .text-box h1 {
+        font-size: 90px;
+        margin: 25px 0 -25px;
+        font-weight: 800;
+    }
+    .discount .text-box h3 {
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: #4a1831;
+    }
+    .discount .text-box h2 {
+        font-size: 55px;
+        margin-top: -25px;
+        color: #6cc5ac;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+
+
+    section.about {
+        padding: 40px 0;
+    }
+    .about .img-box {
+        text-align: center;
+    }
+    .about.offer .text-box p {
+        font-size: 24px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 10px 45px;
+    }
+    .marichi {
+        padding: 40px 0;
+    }
+    .marichi .marichi-box .img-box img {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+.marichi .marichi-box .text-box h3 {
+    font-size: 19px;
+}
+.marichi .marichi-box .text-box h4 {
+    font-size: 25px;
+}
+section.our-menu {
+    padding: 40px 0;
+}
+.our-menu.form .menu-box {
+    width: 100%;
+}
+.our-menu .menu-box h2 {
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.our-menu.form .menu-box p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.our-menu.form .menu-box form input {
+        width: 63%;
+        padding: 10px 30px;
+        margin-right: auto;
+        height: 60px;
+        border-radius: 50px 0 0 50px;
+        border: 0;
+}
+.our-menu.form .menu-box .btn {
+    padding: 0px 30px;
+    height: 60px;
+    font-size: 16px;
+}
+footer {
+    padding: 50px 0;
+}
+footer .text-box {
+    width: 100%;
+    margin-bottom: 50px;
+}
+footer h3 {
+    margin-bottom: 15px;
+}
+footer .text-box p {
+    font-size: 18px;
+}
+footer .text-box a {
+    background-color: #ffd7ad;
+    display: inline-block;
+    height: 45px;
+    padding: 7px 0px;
+    align-items: center;
+    text-align: center;
+    width: 45px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+footer .text-box a i {
+    color: #4a1831;
+}
+footer ul {
+    margin-bottom: 20px;
+}
+footer ul li {
+    padding-bottom: 0px;
+    font-size: 18px;
+}
+}

@@ -1,0 +1,247 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+
+
+
+
+body{
+  background-color: #4a1831;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffd7ad;
+}
+h2{
+  font-size: 50px;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.btn {
+  
+  padding: 14px 75px 10px;
+  font-weight: 500;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 20px;
+ 
+}
+.navbar-brand{
+  width: 100px;
+}
+header .nav-item .nav-link{
+  color: #ffd7ad;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+.hero {
+  /* background-image: url(../images/hero.png); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0px 80px;
+  background-position: 0% 65%;
+}
+.hero .text-box h1 {
+  font-size: 100px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.hero .text-box{
+  width: 50%;
+}
+.hero .text-box p{
+  margin-bottom: 30px;
+  line-height: 25px;
+}
+.hero .text-box .btn{
+  background: #ffd7ad;
+  color: #4a1831;
+}
+.navbar-toggler-icon {
+  background-image: url(../images/bar.png);
+}
+section.our-menu {
+  padding: 100px 0;
+  background-color: #ffd7ad;
+  text-align: center;
+}
+.our-menu .menu-box h2 {
+  color: #4a1831;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.our-menu .menu-box {
+  width: 65%;
+  margin: auto;
+}
+.our-menu .menu-box p {
+  color: #4a1831;
+  margin-bottom: 30px;
+  line-height: 25px;
+}
+.our-menu .menu-box .btn{
+  background-color: #4a1831;
+  color: #ffd7ad;
+}
+section.about {
+  padding: 100px 0;
+  background-color: #ffd7ad;
+}
+.about .text-box h2 {
+  color: #4a1831;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.about .text-box p {
+  color: #4a1831;
+  margin-bottom: 30px;
+  line-height: 25px;
+}
+.about .text-box .btn{
+  background-color: #4a1831;
+  color: #ffd7ad;
+}
+.about .img-box img {
+  border-radius: 100% 100% 100% 0%;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+section.discount {
+  background-color: #f3b650;
+  padding: 40px 0 0 0;
+}
+.discount .text-box h1 {
+  color: #e63956;
+  font-size: 140px;
+  font-weight: 800;
+  margin: 25px 0 -35px;
+}
+.discount .text-box h3 {
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #4a1831;
+}
+.discount .text-box h2 {
+  color: #6cc5ac;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 150px;
+  margin-top: -30px;
+}
+.discount .text-box {
+  position: absolute;
+  left: 35px;
+}
+.about.offer{
+  background-color: #4a1831;
+}
+.about.offer .text-box h2 {
+  color: #ffd7ad;
+}
+.about.offer .text-box p {
+  color: #ffd7ad;
+  font-size: 24px;
+}
+.about.offer .text-box .btn {
+  background-color: #ffd7ad;
+  color: #4a1831;
+}
+.marichi{
+  /* background-image: url(../images/merchai-bg.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 80px 0;
+  position: relative;
+}
+.marichi::before{
+  content: "";
+  background: #000;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+.marichi .marichi-box{
+  position: relative;
+  z-index: 2;
+}
+.marichi .marichi-box .img-box img{
+width: 20%;
+margin-bottom: 40px;
+}
+.marichi .marichi-box .text-box h3 {
+  font-size: 35px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.marichi .marichi-box .text-box h4{
+  font-size: 40px;
+}
+.our-menu.form .menu-box {
+  width: 80%;
+}
+.our-menu.form .menu-box p {
+  font-size: 24px;
+  line-height: 31px;
+  margin-bottom: 60px;
+}
+.our-menu.form .menu-box form input {
+  width: 70%;
+  padding: 10px 30px;
+  margin-right: auto;
+  height: 60px;
+  border-radius: 50px 0 0 50px;
+  border: 0;
+}
+.our-menu.form .menu-box .btn {
+  height: 60px;
+  margin-left: -30px;
+  margin-top: -3px;
+}
+footer{
+  padding: 80px 0;
+}
+footer h3{
+  margin-bottom: 15px;
+}
+footer ul li{
+  padding-bottom: 10px;
+}
+footer .text-box{
+  width: 80%;
+}
+footer .text-box a {
+  background-color: #ffd7ad;
+  
+  display: inline-block;
+  height: 45px;
+  padding: 7px 0px;
+  align-items: center;
+  text-align: center;
+  width: 45px;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+footer .text-box a i{
+  color: #4a1831;
+}
